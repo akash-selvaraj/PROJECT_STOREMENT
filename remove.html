@@ -1,0 +1,84 @@
+<!DOCTYPE html5>
+<html >
+    <head>
+        <title>Storement-remove</title>
+                <link rel="icon" type="image/x-icon" href="image/favicon.ico">
+    <style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgba(210, 218, 207, 0.8);
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+
+}
+
+li a:hover {
+  background-color: #ababb0;
+  border-radius: 15px;
+}
+
+.active {
+  background-color: #470305;
+  border-radius: 15px;
+}
+
+form-submit-button {
+	background: #16254d;
+	color: white;
+	border-style: hidden;
+	border-color: #16254d;
+	height: 50px;
+	width: 100px;
+  display: inline-block;
+  animation: paused;
+  margin: 4px 2px;
+  border-radius: 25%;
+	font: bold35px arial,sans-serif;
+	text-shadow: none;
+}
+</style>
+    <body style="background-image: url('bg.png');">
+        
+    <form action="remove.php" method="POST" autocomplete="on">
+    
+        <br />
+<div style="display: run-in;border-radius: 2px">
+  <ul style="margin-left: 20px;margin-right: 20px;margin-top: -1;border-radius: 25px;">
+  <li><a>  </a></li>
+  <li><a href="index.html"style="color: #030238">Home</a></li>
+  <li><a  href="add.html" style="color: #030238">Add</a></li>
+  <li><a  href="edit.html" style="color: #030238">Update</a></li>
+  <li><a href="remove.html" style="color: rgba(251, 186, 186, 0.7) " class="active">Remove</a></li>
+</ul></div><br><br><br>
+        <div align="center"><div align="center" style="width: 800px;background-color: #4C897E;padding: 10px;border-radius: 25px;margin-left: 20px;margin-right: 20px"><br>
+        <img src="remove.png" style="width: 100px">
+        <h2 style="font-size:=32px ">Remove</h2><br><br><br>
+        <input type="text" name="product_ID" style="background-color:#7B96D4;text-align: center;color: black;border-radius: 20px;height: 50px;width: 750px;border-style: hidden;" placeholder="ENTER PRODUCT ID HERE" required />
+        <br><br><br><br>
+        <div align="center">
+          <input type="submit" value="Remove" style="background-color: rgba(109, 11, 11, 1);color: white;border-style: hidden;border-color: #16254d;height: 50px;width: 100px;border-radius: 15px;font: bold15px arial,sans-serif;text-shadow: none;" />
+          <br><br><br>
+        </div></div>
+        
+        
+        </p></div>
+    </form>
+    
+</body>
+</html>
